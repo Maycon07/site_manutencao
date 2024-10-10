@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 50px; /* Padding em torno do conteúdo */
+    position: relative;
+    height: 100vh; /* Garante que o body tenha a altura total da tela */
+    overflow: hidden;
+    background-image: url('https://caesegatos.com.br/wp-content/uploads/grande-grupo-de-caes-e-gatos-olhando-para-a-camera-sobre-fundo-azul.jpg');
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    cursor: url('paw.png'), auto; /* Use a imagem de pata como cursor */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para melhor legibilidade */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1; /* Certifique-se de que o conteúdo fique acima do fundo */
+    animation: float 3s ease-in-out infinite; /* Efeito de flutuação */
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Move para cima */
+    }
+}
+
+h1 {
+    color: #c4ff01b2;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 15px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button {
+    background-color: #e4ad06;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #000b5e;
+}
+.container {
+    border: 5px solid #f0a500; /* Cor inspirada em tons de cães */
+    background-image: url('paw-pattern.png'); /* Imagem de padrão de patas */
+    background-size: 30px; /* Tamanho do padrão */
+    background-repeat: repeat; /* Repete o padrão */
+}
+
+
